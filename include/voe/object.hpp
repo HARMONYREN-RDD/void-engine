@@ -19,11 +19,13 @@ private:
   Coordinate position;
 
 public:
-  Object(String name, Coordinate position);
+  Object(const String &name, const Coordinate &position);
 
-  String &get_name();
-  Coordinate &get_position();
+  const String &get_name() const;
+  const Coordinate &get_position() const;
 
+  void set_name(const String &name);
+  void set_position(const Coordinate &position);
 };
 
 } // namespace voe
