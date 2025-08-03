@@ -1,15 +1,15 @@
-#include "voe/object.hpp"
+#include <voe/engine.hpp>
+
 #include <iostream>
+
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_syswm.h>
+
+using namespace voe;
 
 int main() {
 
-  voe::Object obj("test", {1, 2, 3});
-
-  std::cout << obj.get_name() << std::endl;
-  std::cout << obj.get_position().x << std::endl;
-  std::cout << obj.get_position().y << std::endl;
-  std::cout << obj.get_position().z << std::endl;
-
+  
 
   return 0;
 }

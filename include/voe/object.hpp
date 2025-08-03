@@ -15,17 +15,16 @@ struct Coordinate {
 
 class Object {
 private:
-  String name;
   Coordinate position;
 
 public:
-  Object(const String &name, const Coordinate &position);
+  Object(const Coordinate &position);
 
-  const String &get_name() const;
   const Coordinate &get_position() const;
-
-  void set_name(const String &name);
   void set_position(const Coordinate &position);
+
+  virtual void update() = 0;
+  virtual void render() = 0;
 };
 
 } // namespace voe
