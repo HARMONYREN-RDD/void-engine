@@ -1,0 +1,43 @@
+Void Engine License v1.0
+Copyright (c) 2025 HARMONYREN S.R.L. (name reserved, company in formation)
+All rights reserved.
+
+1. DEFINITIONS
+- “Engine” refers to the Void Engine and all its source code, assets, documentation, and related materials.
+- “Software using the Engine” means any application, game, or program developed using Void Engine as a dependency or framework.
+- “Plugin or Extension” means a separate, add-on component that interacts with Void Engine without modifying its core source code.
+- “Derivative Work” means any modification or fork of Void Engine’s source code.
+
+2. GRANT OF PERMISSION
+Permission is hereby granted, free of charge, to any person obtaining a copy of Void Engine, to use, copy, modify, merge, publish, and distribute the Engine and its source code, subject to the following conditions:
+
+  2.1. Commercial Use
+  You may use Void Engine to create and sell Software using the Engine.
+
+  2.2. Prohibition on Selling the Engine or Forks
+  You may NOT sell Void Engine, its forks, or derivative works as standalone products, whether in source or binary form.
+
+  2.3. Plugins and Extensions
+  You may develop and sell Plugins or Extensions that interface with Void Engine, provided they do not include or redistribute the Engine’s core source code.
+
+  2.4. Attribution
+  All Software using Void Engine must display visible credit such as:
+      "Powered by Void Engine"
+  in documentation, splash screens, or credits, wherever appropriate.
+
+  2.5. Distribution
+  Redistribution of Void Engine or its derivatives must include this license and a clear attribution to the original project.
+
+3. CONTRIBUTIONS
+Any contributions submitted to the Void Engine project are automatically licensed under the same terms as this license (Void Engine License v1.0).
+
+4. WARRANTY AND LIABILITY DISCLAIMER
+Void Engine is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
+In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Engine or the use or other dealings in the Engine.
+
+5. MISCELLANEOUS
+- This license is neutral with respect to the field of use — Void Engine may be used in any domain.
+- The copyright holder retains the right to release Void Engine under different terms in the future.
+- This license must remain intact and accompany all copies or substantial portions of the Engine.
+
+End of Void Engine License v1.0
