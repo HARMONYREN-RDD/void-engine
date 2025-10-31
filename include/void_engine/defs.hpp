@@ -7,7 +7,7 @@
 
 #include <cstdint>
 
-namespace voe {
+namespace void_engine {
 
 template <typename T> using Vector = std::vector<T>;
 template <typename T, std::size_t N> using Array = std::array<T, N>;
@@ -27,4 +27,4 @@ using f64 = double; // 15 digits of precision
 
 using std::string;
 
-} // namespace voe
+} // namespace void_engine

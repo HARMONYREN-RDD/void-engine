@@ -1,4 +1,4 @@
-PROJECT_NAME := voe
+PROJECT_NAME := void_engine
 SRC_DIR := src
 INCLUDE_DIR := include
 BUILD_DIR := build

@@ -1,13 +1,13 @@
 #pragma once
 
-#include <voe/defs.hpp>
+#include <void_engine/defs.hpp>
 
 // Primitives
-#include <voe/primitive/BaseObject.hpp>
+#include <void_engine/primitive/BaseObject.hpp>
 
 #include <unordered_map>
 
-namespace voe {
+namespace void_engine {
 
 class World {
 private:
@@ -36,4 +36,4 @@ public:
   }
 };
 
-} // namespace voe
+} // namespace void_engine

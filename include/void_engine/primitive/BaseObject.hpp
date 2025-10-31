@@ -1,8 +1,8 @@
 #pragma once
 
-#include <voe/defs.hpp>
+#include <void_engine/defs.hpp>
 
-namespace voe {
+namespace void_engine {
 
 class BaseObject {
 private:
@@ -16,4 +16,4 @@ public:
   const string &get_label() const { return label; }
 };
 
-} // namespace voe
+} // namespace void_engine

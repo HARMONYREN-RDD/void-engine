@@ -1,6 +1,6 @@
-#include <voe/objects/2D/Object2D.hpp>
+#include <void_engine/objects/2D/Object2D.hpp>
 
-namespace voe {
+namespace void_engine {
 
 class Point2D : public Object2D {
 public:
@@ -9,4 +9,4 @@ public:
   virtual ~Point2D() = default;
 };
 
-} // namespace voe
+} // namespace void_engine

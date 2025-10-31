@@ -1,8 +1,8 @@
 #pragma once
 
-#include <voe/defs.hpp>
+#include <void_engine/defs.hpp>
 
-namespace voe {
+namespace void_engine {
 
 class Coordinate2D {
 private:
@@ -47,4 +47,4 @@ public:
   bool operator!=(const Coordinate2D &other) const { return !(*this == other); }
 };
 
-} // namespace voe
+} // namespace void_engine

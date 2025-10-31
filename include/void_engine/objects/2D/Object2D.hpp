@@ -1,12 +1,12 @@
 #pragma once
 
-#include <voe/defs.hpp>
+#include <void_engine/defs.hpp>
 
 // Primitives
-#include <voe/primitive/BaseObject.hpp>
-#include <voe/primitive/Coordinate2D.hpp>
+#include <void_engine/primitive/BaseObject.hpp>
+#include <void_engine/primitive/Coordinate2D.hpp>
 
-namespace voe {
+namespace void_engine {
 
 class Object2D : public BaseObject {
 private:
@@ -22,4 +22,4 @@ public:
   const Coordinate2D &get_position() const { return position; }
 };
 
-} // namespace voe
+} // namespace void_engine
